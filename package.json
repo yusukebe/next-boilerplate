@@ -1,0 +1,29 @@
+{
+  "name": "next-boilerplate",
+  "version": "0.1.0",
+  "repository": "git@github.com:yusukebe/next-boilerplate.git",
+  "author": "Yusuke Wada <yusuke@kamawada.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tailwindcss/line-clamp": "^0.2.1",
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.3",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "postcss": "^8.3.6",
+    "postcss-preset-env": "^6.7.0",
+    "stylelint-config-recommended": "^5.0.0",
+    "tailwindcss": "^2.2.9"
+  }
+}
